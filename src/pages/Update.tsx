@@ -37,7 +37,7 @@ export function Update() {
         if (selectedCustomer) {
             const updatedCustomer = { name, phone };
             dispatch(updateCustomer({ email: selectedCustomer.email, updatedCustomer }));
-            setSelectedCustomer(null); // Reset after update
+            setSelectedCustomer(null);
         }
     }
 
@@ -52,7 +52,7 @@ export function Update() {
         if (selectedItem) {
             const updatedItem = { item_name, price, quantity };
             dispatch(updateItem({id: selectedItem.id, updatedItem}));
-            setSelectedItem(null); // Reset after update
+            setSelectedItem(null);
         }
     }
 

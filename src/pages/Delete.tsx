@@ -4,7 +4,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {deleteCustomer} from "../reducers/CustomerSlice.ts";
 import {deleteItem} from "../reducers/ItemSlice.ts";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faEdit, faTrash} from '@fortawesome/free-solid-svg-icons';
+import {faTrash} from '@fortawesome/free-solid-svg-icons';
 
 export function Delete() {
     const navigate = useNavigate();
